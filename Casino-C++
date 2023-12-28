@@ -80,4 +80,26 @@ int main()
                     cout << "You Have Won :--> $" << b * 10 << endl;
                     cout << "YOUR CURRENT BALANCE --> $" << balance << endl;
                 }
+                else
+                {
+                    cout << "    " << endl;
+                    cout << "OOPS ! You Have Won Nothing !!" << endl;
+                    cout << "     " << endl;
+                    balance = (balance - b);
+                    cout << "YOUR CURRENT BALANCE --> $" << balance << endl;
+                }
+
+                cout << endl;
+                cout << endl;
+                cout << "[Press 1] :--> If You Like To Try Another Game" << endl;
+                cout << "[Press 2] :--> To QUIT" << endl;
+                cout << endl;
+                cin >> check;
+                if (check == 2)
+                {
+                    cout << "GOODBYE !!!" << endl;
+                    break;
+                }
+                else
+                
 
