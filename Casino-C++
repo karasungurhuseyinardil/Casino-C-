@@ -101,5 +101,33 @@ int main()
                     break;
                 }
                 else
-                
+                                {
+                    if (balance > 0)
+                    {
+                        cout << "LETS PLAY !!!!" << endl
+                             << endl;
+                    }
+                    else
+                    {
+                        cout << " SORRY YOU HAVE NO BALANCE " << endl;
+                        break;
+                    }
+                }
+            }
+        
+        else if (b < 0)
+        {
+            cout << "You Cannot Place A Bet in Negative" << endl;
+        }
+        else
+        {
+            cout << "You Cannot PLace A Bet More Than Your Current Balance " << endl;
+        }
+    }
+    }
+
+
+return 0;
+}
+
 
